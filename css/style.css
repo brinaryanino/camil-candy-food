@@ -1,6 +1,6 @@
 :root {
-    --primary: #FFB700;
-    --bg-color: #FF76AA;
+    --primary: #ff6bfd;
+    --bg-color: #fff8c8;
     --text-color: #010101;
 }
 
@@ -118,6 +118,10 @@ body {
     background-color: var(--primary);
     border-radius: 0.5rem;
     box-shadow: 1px 1px 3px black;
+}
+
+.hero .content .cta:hover {
+    background-color: #e171df;
 }
 
 .about,
